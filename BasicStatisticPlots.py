@@ -1,3 +1,6 @@
+'''
+Author: Siyun WANG
+'''
 import matplotlib.pyplot as plt
 import seaborn as sns
 import datetime
@@ -559,7 +562,7 @@ class BasicStatisticPlots(object):
 
     
     # tested
-    # Quite Apollo-style a function, I can't see how it can be generalised to other projects of different kinds...
+    # Quite special a function, I can't see how it can be generalised to other projects of different kinds...
     def timeSeriesPlot_folded(self, datetimeCol, groupbyCols, plotCol, foldFreq, 
                               fixYLim=False, inPercentage=False, percentageOn=None, cumulateSum=False, 
                               freq=None, agg=None, data=None):
